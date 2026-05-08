@@ -30,35 +30,35 @@
         <form action="#" method="post">
           <h1>Calculo de Nómina</h1>
           <label for="nombreCompleto">Nombre Completo:</label>
-          <input type="text" id="nombreCompleto" name="nombre" minlength="8" maxlength="260" required>
+          <input type="text" id="nombreCompleto" name="nombre" minlength="8" maxlength="260" required placeholder="Nombre Completo">
 
             <div class="fila">
               <div class="campo">
                 <label for="edad">Edad</label>
-                <input type="number" id="edad" name="edad" min="15" max="100" required>
+                <input type="number" id="edad" name="edad" min="15" max="100" required placeholder="25">
               </div>
 
               <div class="campo">
                 <label for="td">TD</label>
-                <input type="text" id="td" name="td" minlength="2" maxlength="28" required>
+                <input type="text" id="td" name="td" minlength="2" maxlength="28" required placeholder="CC, CE, NIT, etc.">
               </div>
             </div>
 
           <label for="numeroDeDocumento">Número de Documento:</label>
-          <input type="text" id="numeroDeDocumento" name="numeroDeDocumento" minlength="6" maxlength="10" required>
+          <input type="text" id="numeroDeDocumento" name="numeroDeDocumento" minlength="6" maxlength="10" required placeholder="Número de Documento">
 
-          <label for="salario">Salario:</label>
-          <input type="number" id="salario" name="salario" min="1750905" max="9999999999" required>
+          <label for="salario">Salario (COP):</label>
+          <input type="number" id="salario" name="salario" min="1750905" max="9999999999" required placeholder="1750905">
 
           <div class="fila">
               <div class="campo">
                 <label for="comisiones">Comisiones</label>
-                <input type="number" id="comisiones" name="comisiones" min="0" required>
+                <input type="number" id="comisiones" name="comisiones" min="0" required placeholder="0">
               </div>
 
               <div class="campo">
                 <label for="totalHorasExtra">Horas Extra</label>
-                <input type="number" id="totalHorasExtra" name="totalHorasExtra" min="0" max="48" required>
+                <input type="number" id="totalHorasExtra" name="totalHorasExtra" min="0" max="48" required placeholder="0">
               </div>
             </div>
 
